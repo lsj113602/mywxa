@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import "../../scss/vars";
+
+.sample {
+  padding: 25rpx;
+  &__botton {
+    width: 375rpx;
+    background-color: $main_color;
+  }
+}
