@@ -1,10 +1,16 @@
 @charset "UTF-8";
 @import "../../scss/vars";
+@import "../../scss/base";
 
 .sample {
-  padding: 25rpx;
+  padding: 45rpx;
   &__botton {
     width: 375rpx;
     background-color: $main_color;
   }
+}
+.lll {
+  @include size(px(39));
+  width: px(20);
+
 }

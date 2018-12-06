@@ -10,4 +10,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="tabBar">
+    <view class="left"><image class="tabBar_img" src="../../images/1/tab_bar_order.png"/></view>
+    <view class="right"><image class="tabBar_img" src="../../images/1/tab_bar_exchange.png"/></view>
+
+    <view class="bar_btn">登录</view>
+  </view>
 </view>

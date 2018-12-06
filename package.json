@@ -1,6 +1,6 @@
 {
   "name": "mywxa",
-  "version": "0.0.1",
+  "version": "3.3.0",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,21 +8,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "^8.2.5",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-async-await": "0.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
     "grunt": "^1.0.3",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^21.0.0",
-    "grunt-sass": "^3.0.1",
-    "node-sass": "^4.9.3"
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   },
   "repository": {
     "type": "git",

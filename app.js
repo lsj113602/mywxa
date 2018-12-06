@@ -32,12 +32,24 @@ App({
         }
       }
     })
+
+    wx.getSystemInfo({
+      success: res => {
+        console.log(res.statusBarHeight)
+        this.globalData.statusBarHeight = res.statusBarHeight
+        let modelmes = res.model
+        if (modelmes.indexOf('iPhone X') !== -1) {
+          self.globalData.isIphoneX = true
+        }
+      }
+    })
   },
   globalData: {
     userInfo: null,
     userInfo2: {
       userName: '张三',
       age: 18
-    }
+    },
+    statusBarHeight: ''
   }
 })

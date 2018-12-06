@@ -1,0 +1,10 @@
+@charset "UTF-8";
+$design_width: 750;
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@function px($px) {
+  @return $px * 750 / $design_width + rpx;
+}
